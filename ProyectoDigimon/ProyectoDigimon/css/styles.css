@@ -1,0 +1,134 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding:0;
+}
+
+/* Estilo de header */
+.banner{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background-color: cornflowerblue;    
+}
+
+.banner img{
+    height: 150px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+/* Estilos de menu */
+header nav {
+    font-size: 20px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(11, 11, 92);
+}
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    text-align: center;  
+}
+header nav ul li a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    color: blanchedalmond;
+    
+}
+
+
+.pantalla-ppal{
+    background-image: url(../img/FondoHome.jpg);
+    background-repeat: repeat-y;
+    height: 600px ;
+    background-size: cover;
+}
+
+/*Estilos textos main*/
+main p{
+    text-decoration:solid;
+    color: black;
+    font-size: 25px;    
+}
+
+
+
+/*Estilo de footer*/
+footer{
+    background-color: rgb(11, 11, 92);
+}
+footer p{
+    text-align: center;
+    color: blanchedalmond;
+}
+
+/*Estilo de temporadas*/
+
+.pagina-secundaria{
+    background-color: cornflowerblue;
+}
+
+main div h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+
+main div img{
+    height: 300px;
+    width: 350px;
+    display: flex;
+    margin: 0 auto;        
+}
+
+h2{
+    text-align: center;
+}
+
+/*Estilo Personajes*/
+.personaje{
+    background-color: aqua;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.subtitulo-personaje{
+        display: inline;
+        text-align: left;
+        font-size: 30px;
+}
+
+.Descripcion-personaje{
+    display: inline;
+
+}
+/* Estilo para formulario */
+
+form input{
+    margin-left: 5px;
+}
+form div textarea{
+    margin-top: 15px;
+}
+form button{
+    margin-top: 15px;
+}
+
+/*Estilos Peliculas*/
+
+.pelicula{
+    background-color: rgb(56, 64, 179);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.sinapsis{
+  
+    text-align: left;
+    font-size: 30px;
+}
