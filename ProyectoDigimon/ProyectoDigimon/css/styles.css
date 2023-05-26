@@ -19,13 +19,6 @@
 }
 
 /* Estilos de menu */
-header nav {
-    font-size: 20px;
-    height: 30px;
-    text-align: center;
-    background-color: rgb(11, 11, 92);
-}
-
 .nav-ppal {
     font-size: 20px;
     height: 30px;
@@ -33,20 +26,29 @@ header nav {
     background-color: rgb(11, 11, 92);
 }
 
-header nav ul li{
+.nav-color{
+    background-color: rgb(11, 11, 92);
+}
+
+.titulos-menu{
+    
     list-style: none;
-    display: inline-block;
     margin-left: 25px;
     margin-bottom: 15px;
-    text-align: center;  
+    text-align: center;
 }
-header nav ul li a{
+
+.texto-titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    color: black;    
+}
+.texto-titulos-menu{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: underline;
     color: blanchedalmond;
     
 }
-
 
 .pantalla-ppal{
     background-image: url(../img/FondoHome.jpg);
